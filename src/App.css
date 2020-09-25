@@ -1,0 +1,83 @@
+:root{
+  --primary:#f2e6ff;
+  --light:#ffffff;
+}
+body{
+  background: var(--light);
+
+}
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 67%;
+      height: 450px;
+    display: flex;
+    background: #f2e6ff;
+    /* right: 50px; */
+    margin-left: 155px;
+    margin-top: 50px;
+}
+.card2{
+       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 95%;
+       height: 450px;
+    background: var(--light);
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+.image{
+      /* width: 52%; */
+    height: 100%;
+    margin-left: 70px;
+    max-width: 250px;
+    margin-right: 80px;
+       background:var(--light);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.heading{
+     font-size: 23px;
+   font-weight: 540;
+}
+.subscribe{
+   display:flex;
+}
+.save{
+        margin-left: 103px;
+       font-size: 15px;
+    color: 	#D0D0D0;
+    font-weight: 600;
+}
+.cbd{
+  font-size: 12px;
+    color: gray;
+    font-weight: 600;
+}
+.cbd2{
+    font-weight: 600;
+}
+.cbd3{
+    font-size:29px;
+    margin-left:10px;
+}
+.cbd5{
+    font-size:29px;
+    margin-left:10px;
+    background:		#D0D0D0;
+    padding:5px;
+}
+.cbd4{
+  font-size: 12px;
+    color: gray;
+    font-weight: 600;
+    margin-left: 110px;
+}
+.monts{
+  color: gray;
+  border:none;
+      margin-left: 77px;
+}
